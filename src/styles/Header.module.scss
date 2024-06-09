@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #b9e7e7;
+  padding: 0 10px;
+
+  .left {
+    img {
+      width: 80px;
+      padding: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+
+  .right {
+    display: flex;
+
+    span {
+      margin: 5px;
+      cursor: pointer;
+    }
+
+    .setBackgroundColor {
+      text-decoration: underline;
+    }
+  }
+}

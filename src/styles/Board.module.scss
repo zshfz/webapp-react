@@ -1,0 +1,76 @@
+.container {
+  border: 1px solid black;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 10px;
+
+    span {
+      font-size: 20px;
+    }
+
+    .center {
+      display: flex;
+      gap: 5px;
+
+      input {
+        width: 400px;
+      }
+    }
+
+    .right {
+      display: flex;
+      gap: 5px;
+
+      button {
+        background-color: #b9e7e7;
+        border: 1px solid black;
+      }
+    }
+  }
+
+  .body {
+    display: flex;
+    flex-wrap: wrap;
+
+    .postContainer {
+      width: 470px;
+      display: flex;
+      justify-content: space-between;
+      border: 1px solid lightgray;
+      margin: 14px;
+
+      .left {
+        span {
+          display: block;
+          padding-left: 10px;
+        }
+
+        .title {
+          font-size: 20px;
+        }
+
+        .content {
+          padding: 20px 0 20px 10px;
+        }
+
+        .etc {
+          color: lightgray;
+          font-size: 13px;
+        }
+      }
+
+      .right {
+        img {
+          width: 100px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+
+  .footer {
+  }
+}

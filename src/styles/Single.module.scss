@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid black;
+
+    .left {
+      span {
+        margin-right: 5px;
+      }
+
+      .title {
+      }
+
+      .update {
+        cursor: pointer;
+      }
+
+      .delete {
+        cursor: pointer;
+      }
+    }
+
+    .right {
+      span {
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .body {
+    padding: 5px;
+    border-bottom: 1px solid black;
+
+    img {
+      width: 200px;
+      object-fit: contain;
+    }
+
+    .content {
+      display: block;
+    }
+
+    .buttonGroup {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+  }
+
+  .commentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+
+    .inputContainer {
+      display: flex;
+
+      textarea {
+        width: 500px;
+      }
+    }
+
+    .comment {
+      display: flex;
+      justify-content: space-between;
+      border: 1px solid #ddd;
+      width: 545px;
+      margin: 10px 0;
+
+      .left {
+        span {
+          margin: 5px;
+        }
+
+        .author {
+        }
+
+        .date {
+        }
+
+        .updateCommentInputContainer {
+          display: flex;
+
+          .buttonContainer {
+            display: flex;
+            align-items: flex-end;
+
+            button {
+              margin: 5px;
+            }
+          }
+        }
+
+        .content {
+          display: block;
+        }
+      }
+
+      .right {
+        display: flex;
+        align-items: flex-end;
+
+        button {
+          margin: 5px;
+        }
+      }
+    }
+  }
+}

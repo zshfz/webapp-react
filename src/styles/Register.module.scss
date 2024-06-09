@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+
+  span {
+    font-size: 30px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+
+    input {
+      padding: 5px;
+    }
+
+    button {
+      padding: 5px;
+      border: 1px solid black;
+      background-color: #b9e7e7;
+    }
+
+    p {
+      color: red;
+      font-size: 13px;
+      text-align: center;
+    }
+  }
+}
